@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Proyecto Frontend - Insalud
 
-## Getting Started
+Este es un proyecto de **Next.js** desarrollado con **TypeScript**, utilizando **WebStorm** como entorno de desarrollo. El frontend consume el backend para la gestión de la información médica.
 
-First, run the development server:
+## Tecnologías utilizadas
+
+- **Next.js**: Framework para aplicaciones React con renderizado en el lado del servidor.
+- **TypeScript**: Superset de JavaScript que añade tipado estático.
+- **TailwindCSS**: Framework de CSS para diseño responsivo.
+- **JWT (JSON Web Token)**: Para la autenticación con el backend.
+- **WebStorm**: IDE utilizado para el desarrollo.
+
+## Iniciar el proyecto
+
+Para comenzar con el desarrollo, sigue estos pasos:
+
+### 1. Clonar el repositorio
+
+Clona el repositorio o descarga el archivo `.zip` del proyecto:
 
 ```bash
+git clone https://github.com/tu_usuario/frontend.git
+```
+
+2. Instalar dependencias
+
+Asegúrate de tener Node.js instalado y ejecuta el siguiente comando para instalar las dependencias necesarias:
+
+
+```
+npm install
+# o si usas Yarn:
+yarn install
+# o si usas pnpm:
+pnpm install
+# o si usas Bun:
+bun install
+```
+3. Ejecutar el servidor de desarrollo
+
+Para iniciar el servidor de desarrollo, ejecuta el siguiente comando:
+
+```
 npm run dev
-# or
+# o si usas Yarn:
 yarn dev
-# or
+# o si usas pnpm:
 pnpm dev
-# or
+# o si usas Bun:
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+El servidor se ejecutará en http://localhost:3000
+. Abre esta URL en tu navegador para ver el resultado.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+4. Edición de la página
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Puedes comenzar a editar la página modificando el archivo app/page.tsx. La página se actualizará automáticamente a medida que edites el archivo.
 
-## Learn More
+### Dependencias
 
-To learn more about Next.js, take a look at the following resources:
+Este proyecto utiliza las siguientes dependencias:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+Dependencias:
+{
+  "jwt-decode": "^4.0.0",
+  "next": "15.5.3",
+  "react": "19.1.0",
+  "react-dom": "19.1.0"
+}
 
-## Deploy on Vercel
+Dependencias de desarrollo:
+{
+  "@eslint/eslintrc": "^3",
+  "@tailwindcss/postcss": "^4",
+  "@types/node": "^20",
+  "@types/react": "^19",
+  "@types/react-dom": "^19",
+  "eslint": "^9",
+  "eslint-config-next": "15.5.3",
+  "tailwindcss": "^4",
+  "typescript": "^5"
+}
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# VIDEO DE EJECUCION
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+En el siguiente enlace se puede ver una demo ejecutada por mí para que se pude validar el uso del proyecto y se tenga de referencia al momento de clonarlo y correrlo.
+
+https://youtu.be/VNSyaN5dVPs
